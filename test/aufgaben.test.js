@@ -13,7 +13,3 @@ test("lehnt einen leeren Titel ab", () => {
 test("markiert eine Aufgabe als erledigt", () => {
   assert.equal(erledigen(aufgabeAnlegen("Bericht")).erledigt, true);
 });
-
-test("absichtlich rot", () => {
-  assert.equal(1, 2);
-});
